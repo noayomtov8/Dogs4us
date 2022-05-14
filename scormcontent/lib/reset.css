@@ -26,13 +26,13 @@
 }
 
 .lesson--open .lesson__sidebar {
- opacity: 1;   
+    opacity: 1;
 }
 
 @media (max-width: 59.9375em) {
     .lesson--open-mobile .lesson__content {
         transform: translateX(0);
-    }   
+    }
 }
 
 .lesson__sidebar {
@@ -57,9 +57,3 @@
 .progress__container {
     position: absolute;
 }
-/*.progress__indicator {
-    left: -100%;
-}
-
-
-
